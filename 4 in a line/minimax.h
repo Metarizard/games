@@ -1,0 +1,18 @@
+int random(double,double);
+Node *creaNode(Node *,int,int,int);
+void creaNivell(Node *,int,int);
+void creaArbre(Node *,int,int,int);
+double maxim(int, Node **);
+double minim(int, Node **);
+void Minimax(Node *,int,int,int);
+double MinimaxAB(Node *,double,double,int,int);
+int ferMinimax(Node *,int,int);
+int ferMinimaxAB(Node *,int);
+void esborraNode(Node *);
+void esborraFills(Node *);
+void esborraArbre(Node *);
+void esborraArbreFillsMenysUn(Node *,int);
+int escanejaEnter(int,int);
+void mostraNode(Node *,int);
+void recorreArbreRecursiu(Node *,int);
+void escanejaNom(char*);
